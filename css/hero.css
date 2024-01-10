@@ -1,0 +1,27 @@
+.hero {
+    padding-top: 11px;
+}
+
+.hero__col-left,
+.hero__col-right {
+    width: 50%;
+}
+
+.hero__col-right {
+padding: 0;
+}
+
+.hero__quote {
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 765px;
+    padding-left: 0;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.hero__cover {
+    padding: 30px 10px 0px 10px;
+
+}
+
