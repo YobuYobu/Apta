@@ -48,7 +48,7 @@
 .services__list {
     margin-top: 40px;
 }
- 
+
 .debil {
     border-bottom: 1px solid #4A4A4A;
 }
@@ -65,7 +65,7 @@
     position: relative;
 }
 
-.item__img1::before {
+.item__img::before {
     content: "";
     display: none;
     width: 240px;
@@ -79,7 +79,7 @@
 .item__img1:hover::before {
     display: block;
     cursor: pointer;
-    
+
 }
 
 .item__img2::before {
