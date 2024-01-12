@@ -45,6 +45,40 @@
     overflow: hidden;
 }
 
+.h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 100%; 
+    letter-spacing: -0.36px;
+    text-transform: uppercase;
+}
+
+.h3 {
+    font-size: 22px;
+    font-style: normal;
+    line-height: 100%; 
+    letter-spacing: -0.22px;
+    text-transform: uppercase;
+}
+
+.txt-descriptor {
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.descriptor2 {
+    font-size: 14px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.number1 {
+    font-size: 70px;
+    letter-spacing: -1.4px;
+    text-transform: uppercase;
+}
+
 .txt-menu {
     font-size: 16px;
     line-height: 120%;

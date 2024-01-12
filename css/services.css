@@ -1,0 +1,159 @@
+.services {
+    margin-top: 150px;
+}
+
+.services__col-left,
+.services__col-right {
+    width: 50%;
+}
+
+.services__section-title {
+    text-transform: uppercase;
+}
+
+.services__description {
+    margin-top: 15px;
+    line-height: 120%;
+}
+
+.list__item {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid #4A4A4A;
+}
+
+.color__item:hover {
+    background-color: #E4DDD4;
+    transition: 0.5s;
+    color: #242320;
+}
+
+.item__img1,
+.item__img2,
+.item__img3,
+.item__img4,
+.item__img5,
+.item__img6,
+.item__name,
+.item__number,
+.item__description {
+    width: 25%;
+}
+
+.services__row {
+    margin-top: 40px;
+}
+
+.services__list {
+    margin-top: 40px;
+}
+ 
+.debil {
+    border-bottom: 1px solid #4A4A4A;
+}
+
+
+
+.item__img1,
+.item__img2,
+.item__img3,
+.item__img4,
+.item__img5,
+.item__img6 {
+    /* display: inline-none; */
+    position: relative;
+}
+
+.item__img1::before {
+    content: "";
+    display: none;
+    width: 240px;
+    height: 300px;
+    top: -120px;
+    position: absolute;
+    background-image: url(/img/services03.png);
+}
+
+
+.item__img1:hover::before {
+    display: block;
+    cursor: pointer;
+    
+}
+
+.item__img2::before {
+    content: "";
+    display: none;
+    width: 240px;
+    height: 300px;
+    top: -120px;
+    position: absolute;
+    background-image: url(/img/services03.png);
+}
+
+.item__img2:hover::before {
+    display: block;
+    cursor: pointer;
+}
+
+.item__img3::before {
+    content: "";
+    display: none;
+    width: 240px;
+    height: 300px;
+    top: -120px;
+    position: absolute;
+    background-image: url(/img/services03.png);
+}
+
+.item__img3:hover::before {
+    display: block;
+    cursor: pointer;
+}
+
+.item__img4::before {
+    content: "";
+    display: none;
+    width: 240px;
+    height: 300px;
+    top: -120px;
+    position: absolute;
+    background-image: url(/img/services03.png);
+}
+
+.item__img4:hover::before {
+    display: block;
+    cursor: pointer;
+}
+
+.item__img5::before {
+    content: "";
+    display: none;
+    width: 240px;
+    height: 300px;
+    top: -120px;
+    position: absolute;
+    background-image: url(/img/services03.png);
+}
+
+.item__img5:hover::before {
+    display: block;
+    cursor: pointer;
+}
+
+.item__img6::before {
+    content: "";
+    display: none;
+    width: 240px;
+    height: 300px;
+    top: -120px;
+    position: absolute;
+    background-image: url(/img/services03.png);
+}
+
+.item__img6:hover::before {
+    display: block;
+    cursor: pointer;
+}
+
