@@ -72,4 +72,9 @@
     border: 1px solid #4A4A4A;
     border-radius: 50%;
     color: #E4DDD4;
+    transition: all 0.5s ease;
+}
+
+.portfolio__item-button:hover {
+    border-color: #E4DDD4;
 }
