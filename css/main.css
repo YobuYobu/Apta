@@ -49,7 +49,7 @@
     font-family: 'Playfair Display', sans-serif;
     font-size: 36px;
     font-weight: 500;
-    line-height: 100%; 
+    line-height: 100%;
     letter-spacing: -0.36px;
     text-transform: uppercase;
 }
@@ -57,7 +57,7 @@
 .h3 {
     font-size: 22px;
     font-style: normal;
-    line-height: 100%; 
+    line-height: 100%;
     letter-spacing: -0.22px;
     text-transform: uppercase;
 }
@@ -73,13 +73,13 @@
     text-transform: uppercase;
 }
 
-.descriptor2 {
+.txt-descriptor2 {
     font-size: 14px;
     line-height: 100%;
     text-transform: uppercase;
 }
 
-.number1 {
+.txt-number1 {
     font-size: 70px;
     letter-spacing: -1.4px;
     text-transform: uppercase;
