@@ -77,4 +77,5 @@
 
 .portfolio__item-button:hover {
     border-color: #E4DDD4;
+    text-shadow: 2px 2px 2px #000;
 }
