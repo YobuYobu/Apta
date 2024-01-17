@@ -80,30 +80,8 @@
 
 .statistics__item:last-child .statistics__item-content::before {
     top: -5px;
-    left: -5px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #4A4A4A;
- }
-
-
-
- /* .statistics__item:nth-child(-n+3) {
-    width: 380px;
 }
 
-.statistics__item:nth-child(4) {
-    width: 360px;
-} */
-
-.statistics__border {
-    position: relative;
-}
-
-.statistics__border::after {
-    content: '';
-    display: inline-block;
-    position: absolute;
+.statistics__item:last-child .statistics__item-content::after {
     bottom: -5px;
 }
