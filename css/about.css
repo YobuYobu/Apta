@@ -60,17 +60,17 @@
 
 
 
-/* .statistics__item:nth-child(-n+3) {
+ /* .statistics__item:nth-child(-n+3) {
     width: 380px;
 }
 
 .statistics__item:nth-child(4) {
     width: 360px;
-}
+} */
 
 .statistics__border {
     position: relative;
-} */
+}
 
 .statistics__border::after {
     content: '';

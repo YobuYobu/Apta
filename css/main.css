@@ -62,6 +62,12 @@
     text-transform: uppercase;
 }
 
+.h4 {
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
 .txt-descriptor {
     line-height: 100%;
     text-transform: uppercase;
