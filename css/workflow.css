@@ -1,0 +1,65 @@
+.workflow {
+    margin-top: 150px;
+}
+
+.workflow__col-left,
+.workflow__col-right {
+    width: 50%;
+}
+
+.workflow__section-title {
+    text-transform: uppercase;
+}
+
+.workflow__col-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.workflow__txt {
+    width: 50%;
+}
+
+.workflow__description {
+    margin-top: 15px;
+}
+
+.button__left {
+    position: relative;
+}
+
+.button__right {
+    position: relative;
+    transform: scale(-1,1); 
+}
+
+.button__left-active {
+    transform: scale(-1,1); 
+    position: absolute;
+    
+}
+
+.button__right-active {
+    position: absolute;
+}
+
+.workflow__elements {
+    display: flex;
+    margin-top: 40px;
+}
+
+.workflow__element {
+    width: 20%;
+    padding-left: 15px;
+    border-left: 1px solid #4A4A4A;
+}
+
+.workflow__element p:nth-child(2) {
+    padding-top: 144px;
+    padding-bottom: 8px;
+}
+
+.workflow__elements .workflow__element:last-child {
+    border-right: 1px solid #4A4A4A;
+}
