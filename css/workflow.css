@@ -25,14 +25,7 @@
     margin-top: 15px;
 }
 
-.button__left {
-    position: relative;
-}
 
-.button__right {
-    position: relative;
-    transform: scale(-1,1); 
-}
 
 .button__left-active {
     transform: scale(-1,1); 
