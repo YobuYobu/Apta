@@ -25,7 +25,9 @@
     margin-top: 15px;
 }
 
-
+button:disabled path {
+    fill: gray;
+}
 
 .button__left-active {
     transform: scale(-1,1); 
