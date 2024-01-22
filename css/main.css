@@ -90,6 +90,12 @@
     line-height: 120%;
 }
 
+.number3 {
+    font-size: 16px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
 
 
 .button {

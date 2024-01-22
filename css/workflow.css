@@ -11,6 +11,10 @@
     text-transform: uppercase;
 }
 
+.workflow__title {
+    color: #E4DDD4;
+}
+
 .workflow__col-right {
     display: flex;
     align-items: flex-start;
@@ -23,38 +27,44 @@
 
 .workflow__description {
     margin-top: 15px;
+    color: #ABAAA9;
+    line-height: 120%;
 }
 
-button:disabled path {
-    fill: gray;
+.workflow__arrows {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
 }
 
-.button__left-active {
-    transform: scale(-1,1); 
-    position: absolute;
-    
+.workflow__arrow-left:disabled path {
+    fill: #4A4A4A;
 }
 
-.button__right-active {
-    position: absolute;
-}
-
-.workflow__elements {
-    display: flex;
+.swiper {
     margin-top: 40px;
 }
 
-.workflow__element {
-    width: 20%;
+.swiper-slide {
     padding-left: 15px;
     border-left: 1px solid #4A4A4A;
 }
 
-.workflow__element p:nth-child(2) {
+.swiper-slide p:nth-child(1) {
+    color: #868686;
+}
+
+.swiper-slide p:nth-child(2) {
+    color: #E4DDD4;
     padding-top: 144px;
     padding-bottom: 8px;
 }
 
-.workflow__elements .workflow__element:last-child {
+.swiper-slide p:nth-child(3) {
+    color: #868686;
+}
+
+.swiper-wrapper .swiper-slide:last-child {
     border-right: 1px solid #4A4A4A;
 }
+
