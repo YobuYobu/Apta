@@ -1,5 +1,6 @@
 .workflow {
     margin-top: 150px;
+    overflow: hidden;
 }
 
 .workflow__col-left,
@@ -37,30 +38,37 @@
     gap: 10px;
 }
 
-.workflow__arrow-left:disabled path {
+.workflow__arrow:disabled path {
     fill: #4A4A4A;
 }
 
+
 .swiper {
     margin-top: 40px;
+    overflow: visible;
 }
 
 .swiper-slide {
+
+}
+
+.swiper-element {
     padding-left: 15px;
+    padding-right: 13px;
     border-left: 1px solid #4A4A4A;
 }
 
-.swiper-slide p:nth-child(1) {
+.swiper-element p:nth-child(1) {
     color: #868686;
 }
 
-.swiper-slide p:nth-child(2) {
+.swiper-element p:nth-child(2) {
     color: #E4DDD4;
     padding-top: 144px;
     padding-bottom: 8px;
 }
 
-.swiper-slide p:nth-child(3) {
+.swiper-element p:nth-child(3) {
     color: #868686;
 }
 

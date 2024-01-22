@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
         slidesPerView: 4,
       
         navigation: {
-          nextEl: '.workflow__arrow-left',
-          prevEl: '.workflow__arrow-right',
+          nextEl: '.workflow__arrow-right',
+          prevEl: '.workflow__arrow-left',
         },
 
         
