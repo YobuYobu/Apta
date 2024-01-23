@@ -76,7 +76,7 @@
 
 .client__name::before {
     content: "";
-    background-image: url('/apta_ham/img/clientphoto.png');
+    background-image: url('/img/clientphoto.png');
     position: absolute;
     pointer-events: none;
     opacity: 0;
