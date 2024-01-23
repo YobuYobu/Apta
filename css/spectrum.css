@@ -40,16 +40,23 @@
 }
 
 .client {
+    position: relative;
+    cursor: pointer;
+    transition: 0.6s;
+    margin-right: calc(-50vw + 750px);
+    padding-right: calc(50vw - 750px);
+}
+
+.client__content {
     display: flex;
     align-items: center;
-    position: relative;
-    transition: 0.6s;
     justify-content: space-between;
     padding: 24px 0;
     border-top: 1px solid #4A4A4A;
+    transition: 0.6s;
 }
 
-.spectrum__clients-list .client:last-child {
+.client:last-child .client__content {
     border-bottom: 1px solid #4A4A4A;
 }
 
@@ -69,7 +76,7 @@
 
 .client__name::before {
     content: "";
-    background-image: url(/img/clientphoto.png);
+    background-image: url('/apta_ham/img/clientphoto.png');
     position: absolute;
     pointer-events: none;
     opacity: 0;
@@ -77,29 +84,29 @@
     width: 200px;
     top: -140px;
     left: -142px;
+    z-index: -1;
+    transition: 0.6s;
+    transform: translate(0, -20px);
 }
 
 .client:hover {
-    cursor: pointer;
-    width: 990px;
     color: #242320;
     background-color: #E4DDD4;
     overflow: visible;
 }
 
+.client:hover .client__content {
+    border-color: #E4DDD4;
+}
+
 .client:hover .client-decoration {
-    position: absolute;
-    border: 1px solid #242320;
+    border-color: #242320;
     background-color: #E4DDD4;
-    border-radius: 50%;
-    height: 15px;
-    width: 16px;
-    left: 725px;
 }
 
 .client:hover .client__name::before {
-    opacity: 100%;
-    z-index: -1;
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 .client:hover p {
