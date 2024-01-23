@@ -1,0 +1,109 @@
+.spectrum {
+    margin-top: 150px;
+}
+
+.spectrum__col-left,
+.spectrum__col-right {
+    width: 50%;
+}
+
+.spectrum__section-title {
+    color: #868686;
+}
+
+.spectrum__col-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col-left__client {
+    width: 360px;
+}
+
+.col-left__client-discription {
+    margin-top: 15px;
+    color: #868686;
+}
+
+.spectrum__col-right p:last-child {
+    padding-top: 15px;
+}
+
+.spectrum__clients-list {
+    margin-top: 40px;
+}
+
+.spectrum__description {
+    margin-top: 15px;
+    color: #ABAAA9;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: 0.6s;
+    justify-content: space-between;
+    padding: 24px 0;
+    border-top: 1px solid #4A4A4A;
+}
+
+.spectrum__clients-list .client:last-child {
+    border-bottom: 1px solid #4A4A4A;
+}
+
+.client__name {
+    position: relative;
+    color: #868686;
+}
+
+.client-decoration {
+    border: 1px solid #4A4A4A;
+    background: #4A4A4A;
+    border-radius: 50%;
+    transition: 0.6s;
+    height: 15px;
+    width: 16px;
+}
+
+.client__name::before {
+    content: "";
+    background-image: url(/img/clientphoto.png);
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    height: 250px;
+    width: 200px;
+    top: -140px;
+    left: -142px;
+}
+
+.client:hover {
+    cursor: pointer;
+    width: 990px;
+    color: #242320;
+    background-color: #E4DDD4;
+    overflow: visible;
+}
+
+.client:hover .client-decoration {
+    position: absolute;
+    border: 1px solid #242320;
+    background-color: #E4DDD4;
+    border-radius: 50%;
+    height: 15px;
+    width: 16px;
+    left: 725px;
+}
+
+.client:hover .client__name::before {
+    opacity: 100%;
+    z-index: -1;
+}
+
+.client:hover p {
+    z-index: 1;
+    color: #242320;
+}
+
