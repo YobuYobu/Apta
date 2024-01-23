@@ -43,32 +43,36 @@
 }
 
 
-.swiper {
+.workflow__slider {
     margin-top: 40px;
+    margin-right: -20px;
     overflow: visible;
 }
 
-.swiper-element {
+.workflow__card {
+    display: flex;
+    flex-direction: column;
+    height: 228px;
     padding-left: 15px;
     padding-right: 13px;
     border-left: 1px solid #4A4A4A;
 }
 
-.swiper-element p:nth-child(1) {
+.workflow__card-number {
     color: #868686;
 }
 
-.swiper-element p:nth-child(2) {
+.workflow__card-title {
     color: #E4DDD4;
-    padding-top: 144px;
+    margin-top: auto;
     padding-bottom: 8px;
 }
 
-.swiper-element p:nth-child(3) {
+.workflow__card-description {
     color: #868686;
 }
 
-.swiper-wrapper .swiper-slide:last-child {
+.workflow__slider .swiper-slide:last-child .workflow__card {
     border-right: 1px solid #4A4A4A;
 }
 
