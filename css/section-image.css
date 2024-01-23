@@ -1,14 +1,10 @@
-.main__img {
+.section-image {
     margin-top: 150px;
 }
 
-.img1 {
+.section-image__image {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #E4DDD4;
-}
-
-.large__img {
-    
 }
