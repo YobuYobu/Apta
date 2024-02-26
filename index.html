@@ -51,7 +51,7 @@
                         <a href="#" class="header__nav-link txt-menu">Contacts</a>
                     </nav>
 
-                    <button type="button" class="header__request-button button">Send a request</button>
+                    <button type="button" class="header__request-button button button--light button--small">Send a request</button>
                 </div>
             </div>
         </div>
@@ -253,7 +253,6 @@
             </div>
         </section>
 
-        </section>
         <section class="workflow">
             <div class="container">
                 <div class="workflow__row row">
@@ -320,6 +319,7 @@
                 </div>
             </div>
         </section>
+
         <section class="section-image">
             <div class="container">
                 <div class="section-image__image">
@@ -434,14 +434,20 @@
                 <div class="request__wrap">
                     <p class="request__title h2">do you want to implement a project? We are happy to help</p>
                     <p class="request__subtitle txt-menu">Fill out this form and we will contact you as soon as possible</p>
-                    
+
                     <form action="" class="request__form">
-                        <input type="text" class="request__form-input input" placeholder="Your name">
-                        <input type="text" class="request__form-input input" placeholder="Your e-mail">
-                        <input type="text" class="request__form-input input" placeholder="Your phone">
-                        <textarea class="request__form-input textarea" placeholder="Write about your idea"></textarea>
-                        <input type="checkbox">
-                        <button type="button" class="request__form-button button">send a request</button>
+                        <input type="text" name="name" class="request__form-input input" placeholder="Your name">
+                        <input type="text" name="email" class="request__form-input input" placeholder="Your e-mail">
+                        <input type="text" name="phone" class="request__form-input input" placeholder="Your phone">
+                        <textarea name="idea" class="request__form-input textarea" placeholder="Write about your idea"></textarea>
+
+                        <label class="request__form-checkbox checkbox">
+                            <input type="checkbox" name="checkbox">
+                            <span class="checkbox__check"></span>
+                            <span class="checkbox__text">I agree with the privacy policy</span>
+                        </label>
+
+                        <button type="submit" class="request__form-button button">send a request</button>
                     </form>
                 </div>
             </div>

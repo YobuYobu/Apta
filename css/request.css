@@ -20,16 +20,16 @@
     color: #4A4A4A;
 }
 
+.request__form {
+    margin-top: 25px;
+}
+
 .request__form-input {
     margin-top: 10px;
 }
 
-.request__form-input::placeholder {
-    color: #4A4A4A;
-}
-
-.checkbox {
-    
+.request__form-checkbox {
+    margin-top: 20px;
 }
 
 .request__form-button {
